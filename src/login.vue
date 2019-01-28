@@ -109,6 +109,7 @@
                 <div class="quick_item_img">
                   <img src="./assets/imgs/q4.png">
 
+
                 </div>
                 <div  class="quick_item_name"><h3>客户管理</h3><p>新增、删除等客户信息管理</p></div>
               </div>
@@ -116,6 +117,7 @@
             <li>
               <div class="quick_item">
                 <div class="quick_item_img">
+                  <span class="khnumbs">欠费6家</span>
                   <img src="./assets/imgs/q5.png">
 
                 </div>
@@ -525,6 +527,18 @@
               }
             }
             .quick_item_img{
+              .khnumbs{
+                font-size: 12px;
+                color:#FFF;
+                background: #FF1400;
+                border-radius: 1000px;
+                padding: 1px 5px;
+                box-shadow: 0 0 3px #CCC;
+                position:absolute;
+                border-bottom-left-radius: 0 ;
+                right:-10px;
+                top:0;
+              }
               margin:0 auto;
               width:100px;
               height:100px;

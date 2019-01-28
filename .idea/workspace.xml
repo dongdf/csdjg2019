@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf68e387-97e5-4211-b4c7-ab39af580590" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/login.vue" afterPath="$PROJECT_DIR$/src/login.vue" />
-      <change beforePath="$PROJECT_DIR$/src/pages/system/gj2.vue" afterPath="$PROJECT_DIR$/src/pages/system/gj2.vue" />
-      <change beforePath="$PROJECT_DIR$/src/pages/system/gj3.vue" afterPath="$PROJECT_DIR$/src/pages/system/gj3.vue" />
-      <change beforePath="$PROJECT_DIR$/src/pages/system/gj4.vue" afterPath="$PROJECT_DIR$/src/pages/system/gj4.vue" />
-      <change beforePath="$PROJECT_DIR$/src/pages/system/gj5.vue" afterPath="$PROJECT_DIR$/src/pages/system/gj5.vue" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,17 +16,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="login.vue" pinned="false" current-in-tab="false">
+      <file leaf-file-name="login.vue" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/login.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="466">
-              <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+            <state relative-caret-position="433">
+              <caret line="535" column="40" lean-forward="false" selection-start-line="535" selection-start-column="40" selection-end-line="535" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#Select#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
                 <element signature="n#div#3;n#div#0;n#template#0;n#!!top" expanded="false" />
-                <element signature="e#6311#6361#0" expanded="true" />
-                <element signature="e#9202#11601#0" expanded="false" />
-                <element signature="n#style#0;n#!!top" expanded="false" />
+                <element signature="e#6364#6414#0" expanded="true" />
+                <element signature="e#9255#11654#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -75,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gj5.vue" pinned="false" current-in-tab="true">
+      <file leaf-file-name="gj5.vue" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/system/gj5.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="39" column="85" lean-forward="false" selection-start-line="39" selection-start-column="85" selection-end-line="39" selection-end-column="85" />
+            <state relative-caret-position="551">
+              <caret line="36" column="65" lean-forward="false" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
@@ -120,14 +114,19 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>quick_item_img</find>
       <find>height</find>
       <find>topBanner</find>
       <find>keyNumb</find>
       <find>buyMiyao</find>
       <find>totalnumbs</find>
       <find>lo</find>
+      <find>nb3_3</find>
+      <find>quick_item_img</find>
+      <find>khnumbs</find>
     </findStrings>
+    <replaceStrings>
+      <replace>nb3_3_5</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -146,8 +145,8 @@
         <option value="$PROJECT_DIR$/src/pages/system/gj3.vue" />
         <option value="$PROJECT_DIR$/src/pages/system/gj2.vue" />
         <option value="$PROJECT_DIR$/src/pages/system/gj4.vue" />
-        <option value="$PROJECT_DIR$/src/login.vue" />
         <option value="$PROJECT_DIR$/src/pages/system/gj5.vue" />
+        <option value="$PROJECT_DIR$/src/login.vue" />
       </list>
     </option>
   </component>
@@ -318,12 +317,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548383162259</updated>
       <workItem from="1548383163680" duration="22295000" />
-      <workItem from="1548638736549" duration="9592000" />
+      <workItem from="1548638736549" duration="10168000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31887000" />
+    <option name="totallyTimeSpent" value="32463000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1343" extended-state="6" />
@@ -367,9 +366,8 @@
           <folding>
             <element signature="n#style#0;n#Select#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
             <element signature="n#div#3;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#6311#6361#0" expanded="true" />
-            <element signature="e#9202#11601#0" expanded="false" />
-            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="e#6364#6414#0" expanded="true" />
+            <element signature="e#9255#11654#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -649,26 +647,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login.vue">
+    <entry file="file://$PROJECT_DIR$/src/pages/system/gj5.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+        <state relative-caret-position="551">
+          <caret line="36" column="65" lean-forward="false" selection-start-line="36" selection-start-column="65" selection-end-line="36" selection-end-column="65" />
           <folding>
-            <element signature="n#style#0;n#Select#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="n#div#3;n#div#0;n#template#0;n#!!top" expanded="false" />
-            <element signature="e#6311#6361#0" expanded="true" />
-            <element signature="e#9202#11601#0" expanded="false" />
-            <element signature="n#style#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/system/gj5.vue">
+    <entry file="file://$PROJECT_DIR$/src/login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="39" column="85" lean-forward="false" selection-start-line="39" selection-start-column="85" selection-end-line="39" selection-end-column="85" />
+        <state relative-caret-position="433">
+          <caret line="535" column="40" lean-forward="false" selection-start-line="535" selection-start-column="40" selection-end-line="535" selection-end-column="40" />
           <folding>
-            <element signature="n#style#0;n#i#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#Select#0;n#div#0;n#div#1;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="e#6364#6414#0" expanded="true" />
+            <element signature="e#9255#11654#0" expanded="false" />
           </folding>
         </state>
       </provider>
