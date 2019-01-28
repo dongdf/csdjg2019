@@ -46,7 +46,7 @@ Axios.interceptors.response.use(response => {
   if(response.data.code == 9999){
     // alert(response.data.msg);
     localStorage.clear()
-    window.location.replace(REDIRECT_URL+'/tax1.0/')
+    // window.location.replace(REDIRECT_URL+'/tax1.0/')
   }
   return Promise.resolve(response)
 }, error => {

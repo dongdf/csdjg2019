@@ -2,13 +2,13 @@
   <div  >
     <div class="ivu-modal-mask" style=""></div>
     <div class="ivu-modal-wrap">
-      <div class="ivu-modal" style="width: 420px;">
+      <div class="ivu-modal" style="width: 520px; ">
         <div class="ivu-modal-content"><a class="ivu-modal-close"><i style="font-size:30px; color:#666"  @click="close2"   class="ivu-icon ivu-icon-ios-close"></i></a>
           <div class="ivu-modal-header">
-            <div class="ivu-modal-header-inner"><Icon color="#08F" type="md-key" />请使用微信扫码进行支付</div>
+            <div class="ivu-modal-header-inner">账务处理能力</div>
           </div>
           <div class="ivu-modal-body">
-            <img style="width:100%;" :src="message"/>
+              <div style="height:350px;">asdfsafsad</div>
           </div>
         </div>
       </div>

@@ -37,8 +37,8 @@
               <div class="cl"></div>
             </div>
             <div class="myRate">
-              <p>您的账务处理能力评分：<b>89分</b></p>
-              <p> 超过全国<b>60%</b>的账务处理人 </p>
+              <p>您的账务处理能力评分：<b @click="rate1Pro(1)">89分</b></p>
+              <p> 超过全国<b @click="rate1Pro(2)">60%</b>的账务处理人 </p>
             </div>
 
             <div class="myRate_Detail">
@@ -46,7 +46,13 @@
                 <li><label>账套：</label><span class=" numbs">33330<i>套</i></span></li>
                 <li><label>客户：</label><span class=" numbs">3330<i>个</i></span></li>
                 <li><label>工作完成：</label><span class=" numbs">30<i>%</i></span></li>
-                <li><label>自动化：</label><span class=" numbs">30<i>%</i></span></li>
+                <li><label>自动化：</label>
+                  <span class=" numbs"><Poptip
+                          word-wrap width="200"
+                          content="自动化使用率:68%  本月总凭证数:100张  ">30</Poptip><i>%</i></span></li>
+
+
+
                 <div class="cl"></div>
               </ul>
             </div>
@@ -61,7 +67,7 @@
         <div class="quick_bars_sel">
           <label>当前账套</label>
           <Select v-model="model5.value"  style="width:300px">
-            <Option v-for="(item,idx) in comlists"  v-bind:value="item.value"   >
+            <Option v-for="(item,idx) in comlists" :key="idx" v-bind:value="item.value"   >
               <span>{{item.name}}</span>
               <!--<span style="float:right;color:#ccc">备注字段</span>-->
             </Option>
@@ -206,6 +212,11 @@
 
 <script>
   import buyMiyao from '@/pages/system/buyMiyao.vue'
+  import gj1 from '@/pages/system/gj1.vue'
+  import gj2 from '@/pages/system/gj2.vue'
+  import gj3 from '@/pages/system/gj3.vue'
+  import gj4 from '@/pages/system/gj4.vue'
+  import gj5 from '@/pages/system/gj5.vue'
   export default {
     data () {
       return {
@@ -230,6 +241,40 @@
       //console.log(JSON.stringify(this.$store.state)+'123');
     },
     methods: {
+      rate1Pro(str){
+        let that = this;
+        if(str ==1){
+          this.$mymsg(gj1,{
+            data: {
+              message: 'you click me btn1'
+            },
+            methods:{
+              onOk(){
+
+                // that.buyDou(this.formC.keyNumb)
+                // that.showWechatMa()
+              }
+            }
+          });
+
+        }
+        if(str ==2){
+          this.$mymsg(gj2,{
+            data: {
+              message: 'you click me btn1'
+            },
+            methods:{
+              onOk(){
+
+                // that.buyDou(this.formC.keyNumb)
+                // that.showWechatMa()
+              }
+            }
+          });
+
+        }
+
+      },
       loginIS(){
 
         let that = this;
