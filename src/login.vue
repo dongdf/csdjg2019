@@ -434,7 +434,14 @@
     background: #FFF;
     ul{
       padding:20px 30px;
+      li:hover{
+        background: #F8F8F8;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+      }
       li{
+        transition: all .5s;
         width:25%;float: left;
         padding:10px;
         cursor: pointer;
@@ -518,7 +525,13 @@
           width:20%;
           float:left;
           padding:25px 0;
+          /*.quick_item:hover{*/
+            /*background: #F8F8F8;*/
+            /*box-shadow:0 0 3px #CCC;*/
+            /*border-radius: 10px;*/
+          /*}*/
           .quick_item{
+            transition: all .5s;
             text-align: center;
             .quick_item_name{
               h3{
