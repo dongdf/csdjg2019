@@ -194,6 +194,7 @@
         border-bottom: 1px solid #EEE;
         padding:8px 0;
         .nb{
+          font-size:14px;
           overflow: hidden;
           float:left;
           .unumb{

@@ -43,9 +43,9 @@
 
             <div class="myRate_Detail">
               <ul>
-                <li><label>账套：</label><span class=" numbs">33330<i>套</i></span></li>
-                <li><label>客户：</label><span class=" numbs">3330<i>个</i></span></li>
-                <li><label>工作完成：</label><span class=" numbs">30<i>%</i></span></li>
+                <li><label>账套：</label><span @click="rate1Pro(3)" class=" numbs">33330<i>套</i></span></li>
+                <li><label>客户：</label><span  @click="rate1Pro(4)" class=" numbs">3330<i>个</i></span></li>
+                <li><label>工作完成：</label><span  @click="rate1Pro(5)" class=" numbs">30<i>%</i></span></li>
                 <li><label>自动化：</label>
                   <span class=" numbs"><Poptip
                           word-wrap width="200"
@@ -260,6 +260,51 @@
         }
         if(str ==2){
           this.$mymsg(gj2,{
+            data: {
+              message: 'you click me btn1'
+            },
+            methods:{
+              onOk(){
+
+                // that.buyDou(this.formC.keyNumb)
+                // that.showWechatMa()
+              }
+            }
+          });
+
+        }
+        if(str ==3){
+          this.$mymsg(gj3,{
+            data: {
+              message: 'you click me btn1'
+            },
+            methods:{
+              onOk(){
+
+                // that.buyDou(this.formC.keyNumb)
+                // that.showWechatMa()
+              }
+            }
+          });
+
+        }
+        if(str ==4){
+          this.$mymsg(gj4,{
+            data: {
+              message: 'you click me btn1'
+            },
+            methods:{
+              onOk(){
+
+                // that.buyDou(this.formC.keyNumb)
+                // that.showWechatMa()
+              }
+            }
+          });
+
+        }
+        if(str ==5){
+          this.$mymsg(gj5,{
             data: {
               message: 'you click me btn1'
             },
