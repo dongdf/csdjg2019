@@ -65,11 +65,10 @@
 
     <div class="quick_c">
         <div class="quick_bars_sel">
-          <label>当前账套</label>
-          <Select v-model="model5.value"  style="width:300px">
-            <Option v-for="(item,idx) in comlists" :key="idx" v-bind:value="item.value"   >
-              <span>{{item.name}}</span>
-              <!--<span style="float:right;color:#ccc">备注字段</span>-->
+          <label>当前账套{{sidx}}</label>
+          <Select v-model='sidx' style="width:300px">
+            <Option v-for="s in kjzz" :value='s.id' :key="s.id">
+             {{s.name}}
             </Option>
           </Select>
 
@@ -220,24 +219,22 @@
   import gj4 from '@/pages/system/gj4.vue'
   import gj5 from '@/pages/system/gj5.vue'
   export default {
-    data () {
+    data(){
       return {
         model5:'',
-        comlists:[
-          {name:'财务管家北京财税科技有限公司1',value:0},
-          {name:'财务管家北京财税科技有限公司2',value:1},
-          {name:'财务管家北京财税科技有限公司3',value:2},
-          {name:'财务管家北京财税科技有限公司4',value:3},
-          {name:'财务管家北京财税科技有限公司5',value:4},
-          {name:'财务管家北京财税科技有限公司6',value:5},
-          {name:'财务管家北京财税科技有限公司7',value:6},
-          {name:'财务管家北京财税科技有限公司8',value:7}
-        ]
-
+        kjzz:[
+          {
+            name:'企业会计准则企业',id:'1'
+          },
+          {
+            name:'小企业会计准则企业',id:'2'
+          }
+        ],
+        sidx:'2',
       }
     },
     mounted(){
-      this.model5 = this.comlists[0];
+       this.model5 = this.comlists[0].value;
       // this.loginIS();
       this.initWave();
       //console.log(JSON.stringify(this.$store.state)+'123');
@@ -678,11 +675,15 @@
     }
     .userName{
       width:200px;
-      font-size:20px;
+      font-size:18px;
       padding:5px 0 0 5px;
       overflow: hidden;
       white-space: nowrap;
+      b{
+        font-weight: normal;
+      }
       text-overflow: ellipsis;
+      font-weight: normal;
     }
     
   }

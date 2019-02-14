@@ -9,10 +9,7 @@
             <div class="ivu-modal-header-inner" >{{cinfo?'编辑企业':'添加企业'}}</div>
           </div>
           <div class="ivu-modal-body">
-
-
             <div>
-
               <div class="formdata">
 
 
