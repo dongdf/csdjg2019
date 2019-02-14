@@ -259,8 +259,6 @@
         <img src="./assets/imgs/maps.png">
       </div>
     </div>
-
-
   </div>
 
 </template>
@@ -276,7 +274,6 @@
     data(){
       return {
         model5:'',
-<<<<<<< HEAD
         kjzz:[
           {
             name:'企业会计准则企业',id:'1'
@@ -286,7 +283,6 @@
           }
         ],
         sidx:'2',
-=======
         comlists:[
           {name:'财务管家北京财税科技有限公司1',value:0},
           {name:'财务管家北京财税科技有限公司2',value:1},
@@ -303,7 +299,6 @@
           {name: '账套迁移',alt:'mode_ztqy', img:'./assets/imgs/t1.png', desc:'支持市面全部软件及平台数据导入至财务管家'},
         ]
 
->>>>>>> 0a7c4729e917277d9b9dfbd256cc403f66c28fff
       }
     },
     mounted(){
