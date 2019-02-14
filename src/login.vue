@@ -141,7 +141,7 @@
     </div>
     <div class="tool_content">
       <ul>
-        <li>
+        <li  @click="clientMsg(0)">
           <div class="tool_item">
             <div class="tool_img fl"><img src="./assets/imgs/t1.png"> </div>
             <div class="tool_info fl">
@@ -150,51 +150,105 @@
             </div>
           </div>
         </li>
-        <li>
+        <li  @click="clientMsg(1)">
           <div class="tool_item">
             <div class="tool_img fl"><img src="./assets/imgs/t2.png"> </div>
             <div class="tool_info fl">
-              <h3>账套迁移</h3>
+              <h3>进项发票数据采集</h3>
               <p>支持市面全部软件及平台数据导入至财务管家</p>
             </div>
           </div>
         </li>
-        <li>
+        <li  @click="clientMsg(2)">
           <div class="tool_item">
             <div class="tool_img fl"><img src="./assets/imgs/t3.png"> </div>
             <div class="tool_info fl">
-              <h3>账套迁移</h3>
+              <h3>销项发票数据采集</h3>
               <p>支持市面全部软件及平台数据导入至财务管家</p>
             </div>
           </div>
         </li>
-        <li>
+        <li  @click="clientMsg(3)">
           <div class="tool_item">
             <div class="tool_img fl"><img src="./assets/imgs/t4.png"> </div>
             <div class="tool_info fl">
-              <h3>账套迁移</h3>
+              <h3>一键报税</h3>
               <p>支持市面全部软件及平台数据导入至财务管家</p>
             </div>
           </div>
         </li>
-        <li>
+        <li  @click="clientMsg(4)">
           <div class="tool_item">
             <div class="tool_img fl"><img src="./assets/imgs/t5.png"> </div>
             <div class="tool_info fl">
-              <h3>账套迁移</h3>
+              <h3>个税计算器</h3>
               <p>支持市面全部软件及平台数据导入至财务管家</p>
             </div>
           </div>
         </li>
-        <li>
+        <li  @click="clientMsg(5)">
           <div class="tool_item">
             <div class="tool_img fl"><img src="./assets/imgs/t6.png"> </div>
             <div class="tool_info fl">
-              <h3>账套迁移</h3>
+              <h3>税收测算</h3>
               <p>支持市面全部软件及平台数据导入至财务管家</p>
             </div>
           </div>
         </li>
+          <li  @click="clientMsg(6)">
+              <div class="tool_item">
+                  <div class="tool_img fl"><img src="./assets/imgs/t6.png"> </div>
+                  <div class="tool_info fl">
+                      <h3>常用网址</h3>
+                      <p>支持市面全部软件及平台数据导入至财务管家</p>
+                  </div>
+              </div>
+          </li>
+          <li  @click="clientMsg(7)">
+              <div class="tool_item">
+                  <div class="tool_img fl"><img src="./assets/imgs/t6.png"> </div>
+                  <div class="tool_info fl">
+                      <h3>我的备份</h3>
+                      <p>支持市面全部软件及平台数据导入至财务管家</p>
+                  </div>
+              </div>
+          </li>
+          <li  @click="clientMsg(8)">
+              <div class="tool_item">
+                  <div class="tool_img fl"><img src="./assets/imgs/t6.png"> </div>
+                  <div class="tool_info fl">
+                      <h3>打印组件</h3>
+                      <p>支持市面全部软件及平台数据导入至财务管家</p>
+                  </div>
+              </div>
+          </li>
+          <li  @click="clientMsg(9)">
+              <div class="tool_item">
+                  <div class="tool_img fl"><img src="./assets/imgs/t6.png"> </div>
+                  <div class="tool_info fl">
+                      <h3>工作详细统计</h3>
+                      <p>支持市面全部软件及平台数据导入至财务管家</p>
+                  </div>
+              </div>
+          </li>
+          <li  @click="clientMsg(10)">
+              <div class="tool_item">
+                  <div class="tool_img fl"><img src="./assets/imgs/t6.png"> </div>
+                  <div class="tool_info fl">
+                      <h3>工作明细统计</h3>
+                      <p>支持市面全部软件及平台数据导入至财务管家</p>
+                  </div>
+              </div>
+          </li>
+          <li  @click="clientMsg(11)">
+              <div class="tool_item">
+                  <div class="tool_img fl"><img src="./assets/imgs/t6.png"> </div>
+                  <div class="tool_info fl">
+                      <h3>税局网站</h3>
+                      <p>支持市面全部软件及平台数据导入至财务管家</p>
+                  </div>
+              </div>
+          </li>
         <div class="cl"></div>
       </ul>
     </div>
@@ -222,6 +276,7 @@
     data(){
       return {
         model5:'',
+<<<<<<< HEAD
         kjzz:[
           {
             name:'企业会计准则企业',id:'1'
@@ -231,6 +286,24 @@
           }
         ],
         sidx:'2',
+=======
+        comlists:[
+          {name:'财务管家北京财税科技有限公司1',value:0},
+          {name:'财务管家北京财税科技有限公司2',value:1},
+          {name:'财务管家北京财税科技有限公司3',value:2},
+          {name:'财务管家北京财税科技有限公司4',value:3},
+          {name:'财务管家北京财税科技有限公司5',value:4},
+          {name:'财务管家北京财税科技有限公司6',value:5},
+          {name:'财务管家北京财税科技有限公司7',value:6},
+          {name:'财务管家北京财税科技有限公司8',value:7}
+        ],
+        tool_list: [
+          {name: '账套迁移',alt:'mode_ztqy', img:'./assets/imgs/t1.png', desc:'支持市面全部软件及平台数据导入至财务管家'},
+          {name: '账套迁移',alt:'mode_ztqy', img:'./assets/imgs/t1.png', desc:'支持市面全部软件及平台数据导入至财务管家'},
+          {name: '账套迁移',alt:'mode_ztqy', img:'./assets/imgs/t1.png', desc:'支持市面全部软件及平台数据导入至财务管家'},
+        ]
+
+>>>>>>> 0a7c4729e917277d9b9dfbd256cc403f66c28fff
       }
     },
     mounted(){
@@ -404,6 +477,25 @@
           }
         }
         new Wave();
+      },
+
+
+      clientMsg(index){
+          let tool_list = [
+              'mode_ztqy',
+              'mode_jxfp',
+              'mode_xxfp',
+              'mode_yjbs',
+              'mode_gsjsq',
+              'mode_ssys',
+              'mode_cywz',
+              'mode_wdbf',
+              'mode_dyzj',
+              'mode_gzxx',
+              'mode_gzmx',
+              'mode_sjwz',
+          ]
+          alert(tool_list[index]);
       }
 
     }
